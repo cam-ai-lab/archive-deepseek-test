@@ -24,6 +24,10 @@ Pricing is simple interest, rounded half-up to whole cents:
 total = amount * (1 + annualPercentage / 100 * termMonths / 12)
 ```
 
+## Status
+
+**archived** (October 2026). Started in `~/code/sandbox` as a test-architecture lab and moved to `archived/experiments` during the October 2026 reorganization. It was left complete: all three test tiers, CI, and the book in `book/`. The last change (2026-09-26, PR #4) fixed the Gatling classpath and recorded the smoke test's first numbers. Nothing here is maintained.
+
 ## Running it
 
 ```bash
