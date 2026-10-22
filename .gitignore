@@ -22,3 +22,21 @@ Thumbs.db
 
 # Logs
 *.log
+
+# ~/code reorg standard ignores
+node_modules/
+.venv/
+venv/
+.conda/
+dist/
+target/
+.next/
+.turbo/
+__pycache__/
+*.pyc
+.env
+.env.*
+!.env.example
+*.pickle
+token.json
+.claude/settings.local.json
